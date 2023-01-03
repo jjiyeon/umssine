@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import styled from 'styled-components'
 import Datebar from '../components/Datebar'
+import Main from '../components/Main'
 import MyInfo from '../components/MyInfo'
 import Navbar from '../components/Nav'
 
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <Navbar />
       <MyInfo />
       <Datebar />
+      <Main />
     </div>
   )
 }
